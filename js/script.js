@@ -19,6 +19,7 @@ $(".main").fadeOut(1,function () {
     }, 8000);
     var audio = $('.song')[0];
     audio.play();
+    audio.play();
 
 });
 var typed = new Typed("#typed", {
