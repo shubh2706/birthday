@@ -10,7 +10,8 @@ if (c != null) {
     document.getElementById("name").innerHTML = c;
     document.getElementById("nae").innerHTML = c;
 }
-$(".main").fadeOut(1,function () {
+$(".main").fadeOut(1)
+$('#play').click(function () {
     $(".loader").fadeOut(1500);
     $(".main").fadeIn("slow");
     sf.destroy();
@@ -19,7 +20,7 @@ $(".main").fadeOut(1,function () {
     }, 8000);
     var audio = $('.song')[0];
     audio.play();
-    audio.play();
+    
 
 });
 var typed = new Typed("#typed", {
