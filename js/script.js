@@ -17,7 +17,7 @@ $('#play').click(function () {
     sf.destroy();
     $('.balloon-border').animate({
         top: -500
-    }, 8000);
+    }, 5000);
     var audio = $('.song')[0];
     audio.play();
     

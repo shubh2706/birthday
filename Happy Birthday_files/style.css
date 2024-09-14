@@ -27,6 +27,13 @@
     background-size: 100% 100%;
     background-position: center;
 }
+.loader h1{
+    text-align: center;
+    text-decoration:solid;
+    text-decoration-color: #fff;
+    text-decoration-style: solid;
+    
+}
 
 .golden-btn:focus,
 .golden-btn:hover {
@@ -59,7 +66,7 @@
 }
 
 body {
-    background-color: #FFDAB9;
+    background-color: #ebcfb6;
 }
 
 img {
@@ -75,9 +82,9 @@ img {
 
 .area {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     color: #C4515C;
-    letter-spacing: -7px;
+    letter-spacing: 0px;
     font-weight: 700;
     text-transform: uppercase;
     animation: spin 2s ease-out infinite;
